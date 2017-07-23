@@ -10,7 +10,7 @@ corrected on online forums.
 
 ### Short, Self Contained, Correct, Example
 
-First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page).
+First of all, your code should exhibit the problem you are having and should be a <b>self-contained</b>, and <b>reproducing</b> example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page).
 
 #### Reducing the code
 
@@ -32,7 +32,7 @@ Please don't share non-runnable pieces and fragments of your code, see [“Show 
 
 <p>
 
-If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) .
+If you are coding a web page, you can try sharing your code using <a href="http://jsfiddle.net/">jsfiddle</a> .
 
 </p>
 
@@ -42,13 +42,13 @@ If you are coding a web page, you can try sharing your code using [jsfiddle](htt
 
 <p>
 
-Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). If you are using an IRC chatroom, don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
+Otherwise, if your code is self-contained in one file, you can use a paste site such as <a href="http://ideone.com/">ideone</a> or <a href="https://paste.debian.net/">paste.debian.net</a>. If you are using an IRC chatroom, don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
 
 </p>
 
 <p>
 
-Some other types of forums allow you to quote a single and self-contained codebase using a notation such as [“pre” tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre), or using indentation or triple-backquotes, so it may be an option there depending on the forum’s policy.
+Some other types of forums allow you to quote a single and self-contained codebase using a notation such as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">“pre” tags</a>, or using indentation or triple-backquotes, so it may be an option there depending on the forum’s policy.
 
 </p>
 
@@ -58,7 +58,7 @@ Some other types of forums allow you to quote a single and self-contained codeba
 
 <p>
 
-If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so people can easily clone or checkout it.
+If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as <a href="http://github.com/">GitHub</a> , <a href="http://bitbucket.org/">Bitbucket</a> , or <a href="https://about.gitlab.com/">GitLab</a> , so people can easily clone or checkout it.
 
 </p>
 
@@ -73,7 +73,7 @@ If you have more than one file in the project, then you should put it in a self-
 
 ### Project Links
 
-* [Canonical URL for the document](http://www.shlomifish.org/philosophy/computers/FILL_IN/) - on Shlomi Fish’s home site. That page should validate as XHTML 1.1.
+* [Canonical URL for the document](http://www.shlomifish.org/philosophy/computers/how-to-share-code-for-getting-help/) - on Shlomi Fish’s home site. That page should validate as XHTML 1.1.
 * [GitHub repository](https://github.com/shlomif/how-to-share-code-for-review) - contains the Markdown sources, an issue tracker and more resources. Contributions are welcome.
 
 ## Licence

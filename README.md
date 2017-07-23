@@ -31,7 +31,9 @@ Please don't share non-runnable pieces and fragments of your code, see [“Show 
 <li>
 
 <p>
+
 If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) .
+
 </p>
 
 </li>
@@ -39,11 +41,15 @@ If you are coding a web page, you can try sharing your code using [jsfiddle](htt
 <li>
 
 <p>
+
 Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). If you are using an IRC chatroom, don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
+
 </p>
 
 <p>
+
 Some other types of forums allow you to quote a single and self-contained codebase using a notation such as [“pre” tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre), or using indentation or triple-backquotes, so it may be an option there depending on the forum’s policy.
+
 </p>
 
 </li>
@@ -51,7 +57,9 @@ Some other types of forums allow you to quote a single and self-contained codeba
 <li>
 
 <p>
+
 If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so people can easily clone or checkout it.
+
 </p>
 
 </li>

@@ -71,7 +71,7 @@ If you have more than one file in the project, then you should put it in a self-
 
 * [Freenode’s ##programming channel FAQ](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ.mdwn) - where this document originated from, and which may contain some other insights.
 * [Writing the Perfect Question](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/) - by Jon Skeet
-    * [How to ask questions the smart way](http://catb.org/~esr/faqs/smart-questions.html) - an older resource with a somewhat condesending tone
+    * [How to ask questions the smart way](http://catb.org/~esr/faqs/smart-questions.html) - an older resource with a somewhat condescending tone
     * [Getting Answers](https://www.mikeash.com/getting_answers.html) - a guide by mikeash.com, which unfortunately suffers from using too many obscure Apple APIs as examples.
 * [How to Get Help Online](http://www.shlomifish.org/philosophy/computers/how-to-get-help-online/) - recommended venues.
 

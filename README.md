@@ -44,7 +44,7 @@ If you are coding a web page, you can try sharing your code using <a href="http:
 
 Otherwise, if your code is self-contained in one file, you can use a paste site such as <a href="http://ideone.com/">ideone</a> or <a href="https://paste.debian.net/">paste.debian.net</a>. If you are using an IRC chatroom, don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
 
-If the code you are sharing is a reusable component, you can [use Bit](https://github.com/teambit/bit) to isolate it and share it so that it can be installed or imported in other projects.
+If the code you are sharing is a reusable component, you can use <a href="https://github.com/teambit/bit">Bit</a> to isolate it and share it so that it can be installed or imported in other projects.
 
 </p>
 

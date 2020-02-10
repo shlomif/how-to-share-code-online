@@ -23,7 +23,6 @@ enough to find the culprit reason for the failure and to fix it.
 
 Please don't share non-runnable pieces and fragments of your code, see [“Show Us The Whole Code”](http://shadow.cat/blog/matt-s-trout/show-us-the-whole-code/) .
 
-
 ### How to upload the code
 
 <ol>
@@ -68,6 +67,14 @@ If you have more than one file in the project, then you should put it in a self-
 
 
 </ol>
+
+### Use a Continuous Integration (CI) Service
+
+If you have the time, and solvinng the issue is important, you should set up a public [CI service](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide) with a build and test script that reproduces the issue. This way, other people will have an easier time reproducing it.
+
+### Put the code under a usable copyright licence.
+
+See ["which licence should I use"]https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#i-want-to-release-my-code---which-open-source-licence-should-i-use) .
 
 ## Links
 

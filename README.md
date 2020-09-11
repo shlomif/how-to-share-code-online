@@ -10,7 +10,7 @@ corrected on online forums.
 
 ### Short, Self Contained, Correct, Example
 
-First of all, your code should exhibit the problem you are having and should be a <b>self-contained</b>, and a <b>reproducing</b> example. More guidelines cab be found in [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page and in [Stack Overflow’s “Minimal, Reproducible, Example” page](https://stackoverflow.com/help/minimal-reproducible-example) (whose text is under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)).
+First of all, your code should exhibit the problem you are having and should be a <b>self-contained</b>, and a <b>reproducing</b> example. More guidelines can be found in [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page and in [Stack Overflow’s “Minimal, Reproducible, Example” page](https://stackoverflow.com/help/minimal-reproducible-example) (whose text is under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 #### Reducing the code
 

@@ -1,0 +1,58 @@
+using ILightU.Network;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ServeurILightU
+{
+    class ServerHandle
+    {
+        public static void WelcomeReceived(int _fromClient, Packet _packet)
+        {
+            //int _clientIdCheck = _packet.ReadInt();
+            string _clientMessage = _packet.ReadString();
+            Console.WriteLine($"{Server.clients[_fromClient].tcp.socket.Client.RemoteEndPoint} connected successfully and is now user {_fromClient}.");
+        }
+
+        public static void DataBoatReceived(int _fromClient, Packet _packet)
+        {
+            //DataBoatStruct dataReceived = new DataBoatStruct();
+
+            int _dest = _packet.ReadInt();
+
+            //dataReceived._data.nameBaseBoat = _packet.ReadString(); // Add the length of the string to the packet
+            //dataReceived._data.NameFlag = _packet.ReadString(); // Add the length of the string to the packet
+            //dataReceived._data.countSail = _packet.ReadInt(); // Add the length of the int to the packet
+            //dataReceived._data.hull.name = _packet.ReadString(); // Add the length of the string to the packet
+            //dataReceived._data.hull.materialName = _packet.ReadString(); // Add the length of the string to the packet
+            //
+            //List<DataSail> tmpSails = new List<DataSail>();
+            //DataSail tmpDataSail = new DataSail();
+            //for (int i = 0; i < dataReceived._data.countSail; i++)
+            //{
+            //    tmpDataSail.name = _packet.ReadString();
+            //    tmpDataSail.materialName = _packet.ReadString();
+            //    dataReceived._data.sailList.dataSailClass.Add(tmpDataSail);
+            //}
+            ServerSend.SendDataToMediaPlayer(_dest, _packet);
+        }
+
+        public static void MediaServerInfo(int _fromClient, Packet _packet)
+        {
+            //int _clientIdCheck = _packet.ReadInt();
+
+
+            Server.MediaServers[_fromClient].infoMedia.NameEvent = _packet.ReadString();
+            Server.MediaServers[_fromClient].infoMedia.City = _packet.ReadString();
+            Server.MediaServers[_fromClient].infoMedia.Street = _packet.ReadString();
+
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine($"Media server: {_fromClient}");
+            Console.WriteLine($"Event: { Server.MediaServers[_fromClient].infoMedia.NameEvent}");
+            Console.WriteLine($"City: {Server.MediaServers[_fromClient].infoMedia.City}");
+            Console.WriteLine($"Street: {Server.MediaServers[_fromClient].infoMedia.Street}");
+            Console.WriteLine("---------------------------------------------------");
+
+        }
+    }
+}

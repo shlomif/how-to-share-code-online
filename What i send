@@ -1,0 +1,34 @@
+using ILightU.Network;
+using ServeurILightU;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ClientSend : MonoBehaviour
+{
+    private static void SendTCPData(Packet _packet)
+    {
+        _packet.WriteLength();
+        ClientPure.instance.tcp.SendData(_packet);
+    }
+
+    #region Packets
+    public static void WelcomeReceived()
+    {
+        using (Packet _packet = new Packet((int)ClientPackets.welcomeReceived))
+        {
+            _packet.Write("hello i'm new user.");
+            SendTCPData(_packet);
+        };
+    }
+
+    public static void SendDataBoat(DataBoatStruct _data)
+    {
+        using (Packet _packet = new Packet((int)ClientPackets.dataBoatReceived))
+        {
+            _packet.Write(_data.Dest); // Add the length of the int to the packe, _data.Dest is int set at 9.
+            SendTCPData(_packet);
+        };
+    }
+    #endregion
+}

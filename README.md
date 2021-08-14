@@ -23,6 +23,12 @@ enough to find the culprit reason for the failure and to fix it.
 
 Please don't share non-runnable pieces and fragments of your code, see [“Show Us The Whole Code”](http://shadow.cat/blog/matt-s-trout/show-us-the-whole-code/) .
 
+### Share code - not screenshots
+
+Please don't share [screenshots](https://en.wikipedia.org/wiki/Screenshot) of the code! Especially not those taken with a camera (e.g: a smartphone's).
+
+Screenshots are not runnable.
+
 ### How to upload the code
 
 <ol>

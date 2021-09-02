@@ -25,9 +25,10 @@ Please don't share non-runnable pieces and fragments of your code, see [“Show 
 
 ### Share code - not screenshots
 
-Please don't share [screenshots](https://en.wikipedia.org/wiki/Screenshot) of the code! Especially not those taken with a camera (e.g: a smartphone's).
+As a general rule, it is a better idea to share the code as text, as that can be
+compiled and run.
 
-Screenshots are not runnable.
+When you do need to share [screenshots](https://en.wikipedia.org/wiki/Screenshot) of the code, try using a screenshot tool (such as the Print-Screen button), rather that a camera (e.g: a smartphone's).
 
 ### How to upload the code
 

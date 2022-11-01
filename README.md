@@ -28,7 +28,7 @@ Please don't share non-runnable pieces and fragments of your code, see [“Show 
 As a general rule, it is a better idea to share the code as text, as that can be
 compiled and run.
 
-When you do need to share [screenshots](https://en.wikipedia.org/wiki/Screenshot) of the code, try using a screenshot tool (such as the Print-Screen button), rather that a camera (e.g: a smartphone's).
+When you do need to share [screenshots](https://en.wikipedia.org/wiki/Screenshot) of the code, try using a screenshot tool (such as the Print-Screen button), rather than a camera (e.g: a smartphone's).
 
 ### How to upload the code
 
@@ -49,6 +49,10 @@ If you are coding a web page, you can try sharing your code using <a href="http:
 <p>
 
 Otherwise, if your code is self-contained in one file, you can use a paste site such as <a href="http://ideone.com/">ideone</a> or <a href="https://paste.debian.net/">paste.debian.net</a>. If you are using an IRC chatroom, don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
+
+</p>
+
+<p>
 
 If the code you are sharing is a reusable component, you can use <a href="https://github.com/teambit/bit">Bit</a> to isolate it and share it so that it can be installed or imported in other projects.
 
@@ -77,7 +81,7 @@ If you have more than one file in the project, then you should put it in a self-
 
 ### Use a Continuous Integration (CI) Service
 
-If you have the time, and solving the issue is important for you, you should set up a public [CI service](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide) with a build and test script, and that reproduces the issue. This way, other people will have an easier time reproducing it.
+If you have the time, and solving the issue is important for you, you should set up a public [CI service](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-do-continuous-integration-ci-services-such-as-travis-ci-jenkins-or-appveyor-provide) with a build and test script, and which reproduces the issue. This way, other people will have an easier time reproducing it.
 
 ### Put the code under a usable copyright licence.
 

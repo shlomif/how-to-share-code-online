@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE article>
-<article
-xmlns="http://docbook.org/ns/docbook" version="5.0"
-xmlns:xlink="http://www.w3.org/1999/xlink" >
+<?xml-stylesheet href="docbook-css/driver.css" type="text/css"?>
+<article version="5.0" xml:id="index" xml:lang="en-GB" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook">
 
 <info>
 
@@ -230,4 +228,5 @@ welcome.
 </itemizedlist>
 </section>
 </section>
+
 </article>

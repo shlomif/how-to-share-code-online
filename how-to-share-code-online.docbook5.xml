@@ -55,8 +55,10 @@ sharing source code which exhibits an undesirable behaviour, in
 order for it to be reviewed and corrected on online forums.
 </para>
 </section>
+
 <section xml:id="guidelines">
 <title>Guidelines</title>
+
 <section xml:id="short-self-contained-correct-example">
 <title>Short, Self Contained, Correct, Example</title>
 <para>
@@ -76,7 +78,7 @@ text is under
 If the code is too large, please consider reducing it to a
 more minimal example that still exhibits the problem (see
 the
-<link xlink:href="https://en.wikipedia.org/wiki/Bisection_method">bisection
+<link xlink:href="https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-does-bisecting-mean">bisection
 method</link> ). Namely, you can try gradually removing
 parts of the code while each time ascertaining that the
 problem can still be reproduced until you have reached the
@@ -85,6 +87,7 @@ find the culprit reason for the failure and to fix it.
 </para>
 </section>
 </section>
+
 <section xml:id="show-the-whole-code">
 <title>Show the Whole Code</title>
 <para>
@@ -94,20 +97,40 @@ code, see
 Us The Whole Code”</link> .
 </para>
 </section>
+
 <section xml:id="share-code---not-screenshots">
 <title>Share code - not screenshots</title>
+
 <para>
 As a general rule, it is a better idea to share the code as
 text, as that can be compiled and run.
 </para>
+
 <para>
-When you do need to share
-<link xlink:href="https://en.wikipedia.org/wiki/Screenshot">screenshots</link>
-of the code, try using a screenshot tool (such as the
-Print-Screen button), rather than a camera (e.g: a
-smartphone's).
+When you do need to share <link
+xlink:href="https://en.wikipedia.org/wiki/Screenshot">screenshots</link> of the
+code, try using a screenshot tool such as the keyboard Print-Screen button.
+That is because using a camera (for example, that of a smartphone) to
+photograph the screen, will reduce the quality and faithfulness of the image.
+See:
 </para>
+
+<itemizedlist>
+<listitem>
+<para>
+<link xlink:href="https://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows">“The Easiest Way to Take a Screenshot in Windows | wikiHow”</link>
+</para>
+</listitem>
+
+<listitem>
+<para>
+<link xlink:href="https://fedoramagazine.org/take-screenshots-on-fedora/">“How to take screenshots on Fedora Workstation - Fedora Magazine”</link>
+</para>
+</listitem>
+</itemizedlist>
+
 </section>
+
 <section xml:id="how-to-upload-the-code">
 <title>How to upload the code</title>
 <para>
@@ -119,10 +142,9 @@ Otherwise, if your code is self-contained in one file, you can
 use a paste site such as
 <link xlink:href="http://ideone.com/">ideone</link> or
 <link xlink:href="https://paste.debian.net/">paste.debian.net</link>. If
-you are using an IRC chatroom, don't floodpaste the code to
-the channel because this is slower and more annoying than
-using a paste site and may get you kicked or devoiced out of
-the channel.
+you are using an IRC chatroom (which are also called “IRC channels”), don't
+floodpaste the code to the channel because this is slower and more annoying
+than using a paste site and may get you kicked or devoiced out of the channel.
 </para>
 <para>
 If the code you are sharing is a reusable component, you can
@@ -133,8 +155,8 @@ imported in other projects.
 <para>
 Some other types of forums allow you to quote a single and
 self-contained codebase using a notation such as
-<link xlink:href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">“pre”
-tags</link>, or using indentation or triple-backquotes, so it may
+<link xlink:href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">the HTML “pre”
+tags</link>, or using <link xlink:href="https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-does-indentation-mean">indentation</link> or triple-backquotes, so it may
 be an option there depending on the forum’s policy.
 </para>
 <para>
@@ -147,6 +169,7 @@ code sharing site such as
 easily clone or checkout it.
 </para>
 </section>
+
 <section xml:id="use-a-continuous-integration-ci-service">
 <title>Use a Continuous Integration (CI) Service</title>
 <para>
@@ -158,6 +181,7 @@ reproduces the issue. This way, other people will have an
 easier time reproducing it.
 </para>
 </section>
+
 <section xml:id="put-the-code-under-a-usable-copyright-licence">
 <title>Put the code under a usable copyright licence.</title>
 <para>
@@ -166,9 +190,12 @@ See
 licence should I use&quot;</link> .
 </para>
 </section>
+
 </section>
+
 <section xml:id="links">
 <title>Links</title>
+
 <itemizedlist spacing="compact">
 <listitem>
 <para>
@@ -207,6 +234,7 @@ to Get Help Online</link> - recommended venues.
 </para>
 </listitem>
 </itemizedlist>
+
 <section xml:id="project-links">
 <title>Project Links</title>
 <itemizedlist spacing="compact">
@@ -220,13 +248,14 @@ That page should validate as XHTML 5.
 <listitem>
 <para>
 <link xlink:href="https://github.com/shlomif/how-to-share-code-for-review">GitHub
-repository</link> - contains the Markdown sources, an
+repository</link> - contains the DocBook/XML sources, an
 issue tracker and more resources. Contributions are
 welcome.
 </para>
 </listitem>
 </itemizedlist>
 </section>
+
 </section>
 
 </article>
